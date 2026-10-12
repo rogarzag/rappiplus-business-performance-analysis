@@ -194,9 +194,15 @@ Both dashboards are combined in the **RappiPlus Business Performance Story**.
 ## 📂 Repository Structure
 
 ```text
-├── RappiPlus_Business_Performance_Portfolio.ipynb
+rappiplus-business-performance-analysis/
+│
 ├── README.md
-└── supporting files / screenshots (optional)
+├── RappiPlus_Business_Performance_Portfolio.ipynb
+├── requirements.txt
+│
+└── images/
+    ├── executive_overview.png
+    └── order_product_detail.png
 ```
 
 ## 🔐 Reproducibility Note
