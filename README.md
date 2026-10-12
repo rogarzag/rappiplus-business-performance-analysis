@@ -2,6 +2,7 @@
 
 **Author:** Rodrigo Garza García  
 **Role:** Strategy & Public Affairs | Business Analysis & Data Analytics  
+**Study period:** January 1 – June 30, 2025  
 **Portfolio:** [GitHub Profile](https://github.com/rogarzag)
 
 End-to-end business performance analysis for **RappiPlus**, covering data quality, revenue, costs, profitability, marketing, conversion, retention, product performance, and an A/B test. The project combines **Python, SQL, statistical testing, and Tableau** to turn multiple data sources into business insights and interactive dashboards.
