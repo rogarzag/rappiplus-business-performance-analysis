@@ -1,7 +1,7 @@
 # RappiPlus Business Performance Analysis
 
 **Author:** Rodrigo Garza García  
-**Role:** Strategy & Public Affairs | Business Analysis & Data Analytics  
+**Role:** Public & International Affairs | Business Analysis & Data Analytics  
 **Study period:** January 1 – June 30, 2025  
 **Portfolio:** [GitHub Profile](https://github.com/rogarzag)
 
@@ -61,6 +61,19 @@ To better represent typical operating performance, the Tableau dashboards use an
 - Treatment conversion: **16.29%**
 - **p-value: 0.4161**
 - Result: no statistically significant evidence that the checkout UI change improved conversion.
+
+## Decision Brief
+
+**Decision supported:** determine which data and customer-journey issues should be resolved before changing commercial priorities or rolling out the checkout redesign.
+
+| Evidence from the analysis | Business implication | Recommended action | How to evaluate the next step |
+|---|---|---|---|
+| Extreme-quantity records account for 81.45% of reported revenue. | Aggregate results are highly sensitive to a small set of records; excluding them is an analytical scenario, not proof that the transactions are erroneous. | Validate flagged records against source transactions and report raw and adjusted results separately. | Track the share of flagged records reconciled and the revenue covered by validated records. |
+| The checkout-to-payment step has 86.71% stage conversion, the largest relative drop in the reported funnel. | This is a candidate for investigation, but non-sequential event counts limit interpretation. | Validate event order and definitions, then segment the drop by device and country before designing a targeted test. | Monitor validated step conversion and payment completion, with a consistent user population and observation window. |
+| Checkout conversion is 15.69% in control and 16.29% in treatment; p = 0.4161. | The observed difference does not establish a conversion improvement or prove equivalence. | Do not justify a rollout on conversion lift from this result alone; define the minimum meaningful effect and required sample size for a follow-up test. | Assess the effect estimate and confidence interval against the planned decision threshold. |
+| Vacuum-Pro-Black leads unit sales with 6,284 units. | Sales volume alone does not establish which product offers the best profit opportunity. | Compare unit sales with contribution per product and cost-data coverage before prioritizing promotion or inventory. | Monitor product-level contribution, units sold, and the percentage of orders with known costs. |
+
+**Suggested priority:** reconcile material data-quality issues first, validate checkout tracking second, and use the validated evidence to design the next commercial or product test. These are proposed actions; no resulting revenue or conversion impact was measured in this project.
 
 ## 🗂️ Data Sources
 
@@ -176,13 +189,23 @@ Both dashboards are combined in the **RappiPlus Business Performance Story**.
 
 ## 💡 Key Business Insights
 
-1. **Extreme-quantity records materially distort the raw financial picture.** The adjusted view is more useful for understanding typical order behavior.
+1. **Extreme-quantity records dominate the raw financial totals.** The adjusted view provides a complementary scenario for typical order behavior; source validation is needed before treating the flagged transactions as errors.
 2. **Monthly adjusted revenue and profit remain relatively stable**, supporting a more consistent operating picture than the raw dataset suggests.
 3. **Home, Electronics, and Fashion contribute similar revenue and profit**, with no single category overwhelmingly dominating the adjusted results.
 4. **Vacuum-Pro-Black leads unit sales**, while product-level profitability varies considerably.
 5. **The main conversion opportunity appears between checkout and payment information.**
 6. **Retention is stable rather than rapidly declining**, with week-3 retention remaining above 40% across all observed cohorts.
 7. **The tested checkout UI change should not be considered a proven conversion improvement** based on the current experiment.
+
+## Interpretation & Limitations
+
+- This is a training business case. Recommendations were not implemented, and business impact was not measured.
+- The adjusted view excludes invalid quantities and IQR-flagged positive quantities. IQR flags unusual values; it does not establish that every flagged transaction is invalid.
+- Product-level profit is calculated only where product costs are available. The revenue KPI includes orders with missing costs, so total revenue minus known cost does not reconcile directly to the reported product-level profit. This measure is before marketing and other operating expenses and should not be presented as net profit.
+- The raw profit estimate subtracts only known product costs and marketing; missing costs and other expenses limit its interpretation.
+- Funnel counts are unique-user event totals, not a fully validated sequential conversion funnel. The 80.04% ratio should be interpreted within that scope.
+- Cohort comparisons use the activity checkpoints defined in the SQL analysis. They do not by themselves establish long-term retention or explain why cohorts differ.
+- The checkout experiment and event funnel use different analytical populations; their conversion rates should not be compared directly.
 
 ## 🛠️ Tools & Skills
 
