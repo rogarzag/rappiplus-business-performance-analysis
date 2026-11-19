@@ -208,7 +208,6 @@ rappiplus-business-performance-analysis/
 │
 ├── README.md
 ├── RappiPlus_Business_Performance_Portfolio.ipynb
-├── requirements.txt
 │
 └── images/
     ├── executive_overview.png
