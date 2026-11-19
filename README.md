@@ -6,7 +6,7 @@
 **GitHub repository:** [rappiplus-business-performance-analysis](https://github.com/rogarzag/rappiplus-business-performance-analysis)  
 **Project focus:** Business Analysis · Data Analytics · Commercial Performance · KPI Analysis · Experiment Evaluation  
 **Project context:** TripleTen Data Analyst Bootcamp; portfolio analysis  
-**Data / period covered:** January 1 – June 30, 2025  
+**Data / project coverage:** January 1 – June 30, 2025  
 **Professional links:** [GitHub profile](https://github.com/rogarzag) · [LinkedIn](https://www.linkedin.com/in/rodrigogarzamx/) · [Professional Website](https://rogarzag.github.io/)
 
 ## Project Overview
