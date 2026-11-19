@@ -6,12 +6,12 @@
 **GitHub repository:** [rappiplus-business-performance-analysis](https://github.com/rogarzag/rappiplus-business-performance-analysis)  
 **Project focus:** Business Analysis · Data Analytics · Commercial Performance · KPI Analysis · Experiment Evaluation  
 **Project context:** TripleTen Data Analyst Bootcamp; portfolio analysis  
-**Data / case coverage:** January 1 – June 30, 2025  
+**Data / period covered:** January 1 – June 30, 2025  
 **Professional links:** [GitHub profile](https://github.com/rogarzag) · [LinkedIn](https://www.linkedin.com/in/rodrigogarzamx/) · [Professional Website](https://rogarzag.github.io/)
 
 ## Project Overview
 
-End-to-end business performance analysis for **RappiPlus**, covering data quality, revenue, costs, profitability, marketing, conversion, retention, product performance, and an A/B test. The project combines **Python, SQL, statistical testing, and Tableau** to turn multiple data sources into business insights and interactive dashboards.
+Business performance analysis for **RappiPlus**, covering data quality, sales, product costs, customer activity, the conversion funnel, retention, and an A/B test. The project uses **Python, SQL, statistical tests, and Tableau** to review the available data and present the results in dashboards.
 
 ## 📊 Interactive Dashboard
 
@@ -226,4 +226,4 @@ This was developed as the final project of the **TripleTen Data Analyst Bootcamp
 
 ## Conclusion
 
-The analysis supports three decision priorities: validate the unusual quantity records before relying on headline performance, investigate the checkout-to-payment step, and assess products using both sales and product-level profit. The checkout experiment did not show a statistically significant conversion improvement, so it does not justify claiming that the redesign worked. Findings are descriptive and should be validated before operational changes.
+The analysis points to three areas for further review: unusual quantity records, the step between checkout and payment, and product results when sales and product costs are considered together. The checkout test did not show a clear statistical improvement in conversion, so the redesign cannot be described as a proven success. The recommendations are based on the available data; their business impact was not tested.
