@@ -2,7 +2,7 @@
 
 **Author:** [Rodrigo Garza García](https://www.linkedin.com/in/rodrigogarzamx/)  
 **Professional focus:** Public & International Affairs · Business Analysis · Data Analytics  
-**Portfolio page:** [rappiplus business performance analysis](https://rogarzag.github.io/projects/rappiplus/)  
+**Portfolio page:** [RappiPlus](https://rogarzag.github.io/projects/rappiplus/)  
 **GitHub repository:** [rappiplus-business-performance-analysis](https://github.com/rogarzag/rappiplus-business-performance-analysis)  
 **Project focus:** Business Analysis · Data Analytics · Commercial Performance · KPI Analysis · Experiment Evaluation  
 **Project context:** TripleTen Data Analyst Bootcamp; portfolio analysis  
